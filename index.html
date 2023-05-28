@@ -19,7 +19,7 @@
 <body>
 
 <!-- NavBar (tuve que agregar JS porque no encontré modo de cerrar modal con CSS y HTMA solo)-->
-<header>
+<header id="Inicio">
     <nav class="navbar  bg-black fixed-top">
         <!-- <nav class="navbar  bg-transparentfixed-top"> Esta idea me gusta pero requiere más trabajo para quedar bien -->
         <div class="container-fluid">
@@ -63,67 +63,65 @@
 </header>
 
 <main>  
-<!-- Hay que revisar todos los # a las secciones porque no me gustan -->
-
-<!-- los id en los hr son provisorios -->
-
-<hr id="Inicio"> <!--Pongo esto así porque sino me queda siempre cortado el título o la img, quizás debería usar margin top-->
-<!-- Título Párrafo y Botón -->
 
 <!-- ojo con esta parte en modo celular porque la herr queda encima video -->
-<div  class="container-fluid ">
-    <h1 class="titulo"> <span>N</span><span></span><span>M</span></h1>
-    <p class="parrafoPortada">Diseño y desarrollo web dedicado a profesionales, emprendedores, pequeñas y medianas empresas. </p>
-    <p class="fs-2 text-white text-center"  >Los recursos y herramientas más actualizados a tu disposición</p>
+<section>
+    <div class="container-fluid ">
+        <h1 class="titulo"> <span>N</span><span></span><span>M</span></h1>
+        <p class="parrafoPortada">Diseño y desarrollo web dedicado a profesionales, emprendedores, pequeñas y medianas
+            empresas. </p>
+        <p class="fs-2 text-white text-center">Los recursos y herramientas más actualizados a tu disposición</p>
 
-    <div class="d-grid col-6 mx-auto justify-content-center">
-        <a class="btn btn-lg miBoton" href="#Proyectos" role="button">Conoce más</a>
+        <div class="d-grid col-6 mx-auto justify-content-center">
+            <a class="btn btn-lg miBoton" href="#Proyectos" role="button">Conoce más</a>
+        </div>
     </div>
-</div>
 
-<!-- Video de la portada -->
-<div class="video-container">
-    <video id="video-portada" class="bg-black" autoplay loop muted>
-        <source src="IMG\video4.mp4" type="video/mp4" alt="video de fondo" />
-    </video>
-</div>
+    <!-- Video de la portada -->
+    <div class="video-container">
+        <video id="video-portada" class="bg-black" autoplay loop muted>
+            <source src="IMG\video4.mp4" type="video/mp4" alt="video de fondo" />
+        </video>
+    </div>
+</section>
+
 
 <!-- Skills (se deben arreglar los márgenes para evitar hr y br)-->
-<hr id="Habilidades">
+<hr >
 <br>
-<div  class="container-fluid skill">
+<div id="Habilidades" class="container-fluid skill">
     <h1 class="text-center">HERRAMIENTAS</h1>
     <hr>
     <div class="row" height="20%">
         <div class="col-md-4 mb-0">
             <img class="skill-Img" src="IMG\HTMLlogo.jpg" alt="Logo HTML" >
             <h2>HTML 5</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque labore repellendus nobis explicabo, aliquam earum animi doloribus dicta nostrum error, velit voluptatibus dolor laudantium vel tempore corporis quo, aut quis?</p>
+            <p class="mb-0">Esta es la herramienta principal del trabajo en diseño y desarrollo web. Si bien no se lo considera un lenguaje de programación, la maquetación del sitio requiere de esta herramienta.</p>
         </div>
         <div class="col-md-4 mb-0">
             <img class="skill-Img" src="IMG\CSS3.jpg" alt="Logo CSS" width="auto" height="auto">
             <h2>CSS 3</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque labore repellendus nobis explicabo, aliquam earum animi doloribus dicta nostrum error, velit voluptatibus dolor laudantium vel tempore corporis quo, aut quis?</p>
+            <p class="mb-0">CSS 3 es una herramienta muy versátil y amplia. Puede diseñarse y desarrollarse mucho con él. Aunque existe un debate si es un lenguaje o no, lo importante es reconocer sus virtudes de aplicación.</p>
         </div>
         <div class="col-md-4 mb-0">
             <img class="skill-Img" src="IMG\sasslogo.png" alt="Logo SASS" width="auto" height="auto">
             <h2>SASS</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque labore repellendus nobis explicabo, aliquam earum animi doloribus dicta nostrum error, velit voluptatibus dolor laudantium vel tempore corporis quo, aut quis?</p>
+            <p class="mb-0">Este es un precompilador para usar con CSS 3. Su virtud radica en hacer más breve el código y permite crear variables que facilitan el desarrollo y el diseño web.</p>
         </div>
         <div class="col-md-4 mb-0">
             <img class="skill-Img" src="IMG\JSlogo.jpg" alt="Logo JavaScript" >
             <h2>JavaScript</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque labore repellendus nobis explicabo, aliquam earum animi doloribus dicta nostrum error, velit voluptatibus dolor laudantium vel tempore corporis quo, aut quis?</p>
+            <p class="mb-0">Sin dudas Java es un lenguaje de programación muy vigente actualmente. Todas aquellas funciones que tienen que ver con la interacción del usuario con nuestro sitio. Mis estudios en JS inician en junio en Coderhouse. </p>
         </div>
         <div class="col-md-4 mb-0">
             <img class="skill-Img" src="IMG\bootstraplogo.jpg" alt="Logo Bootstrap" width="auto" height="auto">
             <h2>Bootstrap</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque labore repellendus nobis explicabo, aliquam earum animi doloribus dicta nostrum error, velit voluptatibus dolor laudantium vel tempore corporis quo, aut quis?</p>
+            <p class="mb-0">Esta herramienta nos brinda la posibilidad de realizar páginas web de forma rápida si conocemos el uso de sus clases y la posibilidad de personalizar con CSS y SASS. Es una herramienta que requiere práctica para contar con idoneidad.</p>
         </div>
         <div class="col-md-4 mb-0">
-            <img class="skill-Img" src="IMG\Boostrap2.jpg" alt="Logo Bootstrap" width="auto" height="auto">
-            <h2>HTML 5</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque labore repellendus nobis explicabo, aliquam earum animi doloribus dicta nostrum error, velit voluptatibus dolor laudantium vel tempore corporis quo, aut quis?</p>
+            <img class="skill-Img" src="IMG\Git.jpg" alt="Logo Bootstrap" width="auto" height="auto">
+            <h2>GitHub</h2>
+            <p class="mb-0">Esta herramienta requiere un conocimiento específico y mucha práctica para lograr cierta habilidad. Por ello, los sitios mostrados en el portafolio se basan en Git a fin de mostrar los proyectos online así como sus códigos en los repositorios públicos. </p>
         </div>
     </div>
 </div>
@@ -172,10 +170,12 @@
         <div class="col-md-7">
             <h2 class="text-center">El retro tiene sentido</h2>
             <br>
-            <p class="text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident
-                placeat, rerum alias
-                necessitatibus fuga reprehenderit at voluptas nam accusamus, beatae labore tenetur mollitia neque
-                voluptatem! Illo fuga omnis qui.</p>
+            <p class="text-center lead">Hace poco más de cincuenta años la tecnología era una cinta magnética en forma de cassette. Luego llegaron los CD's que dieron rápidamente inicio a la era de los DVD's. En paralelo, la computadora llegaba a la vida de las personas. En un principio, el hardware era más importante que el software. Esto se debeía a que no existía tanto desarrollo de software. Una profesión de vanguardia era el armado y reparación de PC'.  
+                <br>
+                Actualmente, la situación del hardware es una vorágine, pero no tan notoria para la gente común como la de software. 
+                <br>
+                Hoy en día, el desarrollo de software y diseño web se ha convertido en una profesión más allá del hobby que fue una vez para muchos.
+            </p>
         </div>
         <div class="col-md-5">
             <img class="img-fluid mx-auto d-block text-center sobre-Img"  src="IMG\cassettes.jpeg" alt="Libros">
@@ -191,10 +191,16 @@
         <div class="col-md-7 ">
             <h2 class="text-center">Por qué desarrollo web</h2>
             <br>
-            <p class="text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident
-                placeat, rerum alias
-                necessitatibus fuga reprehenderit at voluptas nam accusamus, beatae labore tenetur mollitia neque
-                voluptatem! Illo fuga omnis qui.</p>
+            <p class="text-center lead">Siempre he sentido una enorme curiosidad por saber cómo funcionan las cosas. Pero actualmente, mi curiosidad se centra en cómo contruir cosas. 
+                <br>
+                Resulta obvio que para construirlas hay que saber cómo funcionan, y es ahí donde uno debe estudiar de forma permanente y capacitarse constantemente. 
+                <br>
+                Supe cortar la cinta magnética de los cassettes para evitar publicidades. Supe grabar CD's y DVD's para venderlos con un PC's moderna. 
+                <br>
+                Actualmente me interesa el diseño y desarrollo web. 
+                <br>
+                <b class="fs-3">Y es un camino que inicio con enorme dedicación y felicidad.  </b> 
+            </p>
         </div>
     </div>
 </div>
@@ -203,11 +209,16 @@
     <div class="row">
         <div class="col-md-7">
             <h2 class="text-center">Planes a futuro</h2>
-            <br>
-            <p class="text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident
-                placeat, rerum alias
-                necessitatibus fuga reprehenderit at voluptas nam accusamus, beatae labore tenetur mollitia neque
-                voluptatem! Illo fuga omnis qui.</p>
+            <p class="text-center lead">Tengo varios sitios que sigo a diario para aprender:     
+            </p>
+            <ul class="list-group col-4 mx-auto mb-2" style="width: auto; max-width: 70%;">
+                <li class="list-group-item" aria-current="true"><a target="_blank" class="list-group-item list-group-item-action" href="https://www.freecodecamp.org/espanol/">Free Code Camp</a></li>
+                <li class="list-group-item"><a target="_blank" class="list-group-item list-group-item-action" href="https://campus.open-bootcamp.com/">Open BootCamp</a></li>
+                <li class="list-group-item"><a target="_blank" class="list-group-item list-group-item-action" href="https://plataforma-login.coderhouse.com/">Coder House</a></li>
+                <li class="list-group-item"><a target="_blank" class="list-group-item list-group-item-action" href="https://www.w3schools.com/#">W3school</a></li>
+                <li class="list-group-item"><a target="_blank" class="list-group-item list-group-item-action" href="https://fullstackopen.com/es/">Universidad de Helsinki</a></li>
+                <li class="list-group-item"><a target="_blank" class="list-group-item list-group-item-action" href="https://www.theodinproject.com/">Proyecto Odin</a></li>
+            </ul>
         </div>
         <div class="col-md-5">
             <img class="img-fluid mx-auto d-block text-center sobre-Img" src="IMG\coderhouselogo.webp" alt="Logo CoderHouse">
@@ -219,40 +230,46 @@
 
 
 <!-- Proyectos -->
-<!-- Toda esta sección es simplificable porque estaba probando los p m j y algin -->
 
-<section id="Proyectos" style="height: auto;">
-    <div class="container-fluid proyecyos-cont">
-        <h2>Portafolio</h2>
-        <h3>Aquí están tres proyectos <br>(Cuidado que falta decidir color, size, algin, etc, etc.) Ver el width height de los div...los quiero más grandes</h3>
-        <div class="container text-center">
-            <div class="row algin-center">
-                <div class="col col-4">
-                    <div class="card m-5" style="width: 18rem;">
+<!-- <section id="Proyectos" style="height: auto;"> -->
+    <div class="container-fluid proyecyos-cont ">
+        <h2 class="fs-1">Portafolio</h2>
+        <h3 class="mb-5">Aquí están tres proyectos <br>Cada uno posee una breve descripción y el acceso a todos los repositorios.
+        </h3>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
                         <img src="IMG\Web1.png" class="card-img-top" alt="Mi web HTML y CSS">
                         <div class="card-body">
                             <h5 class="card-title">HTML y CSS</h5>
-                            <p class="card-text">Primer proyecto de sitio web personal usando HTML y CSS. Luego se agregó Bootstrap en alguna sección.
+                            <p class="card-text">Primer proyecto de sitio web personal usando HTML y CSS. Luego se
+                                agregó Bootstrap en alguna sección.
                             </p>
-                            <a target="_blank" href="https://nicolasmelgar.github.io/WebConHTMLyCSS/" class="btn btn-primary">Ver proyecto</a>
+                            <a target="_blank" href="https://nicolasmelgar.github.io/WebConHTMLyCSS/"
+                                class="btn miBotonChico">Ver proyecto</a>
                         </div>
                     </div>
                 </div>
-                <div class="col col-8">
-                    <div id="fondo-div" class="m-5">
-                        <p id="parr1" class="text-start fs-2 opacity-75">En este proyecto se pueden encontrar muchos recursos de HTML y CSS puro.</p>
-                        <p id="parr2" class="text-center fs-1">El uso de las pseudo-clases está marcado en todo el proyecto, con intención de aprenderlas rápidamente.</p>
-                        <p id="parr3" class="text-end fs-3">Al incorporar Bootstrap la idea central sufrió modificaciones irremediables, lo cual me obligó incursionar seriamente en Bootstrap.</p>
-                        
-                        <a target="_blank" href="https://github.com/NicolasMelgar/WebConHTMLyCSS" class="btn btn-light">Ver Repositorio</a>
+                <div class="col-md-8 mx-auto">
+                    <div id="fondo-div">
+                        <!-- <p id="parr1" class="text-start fs-2 opacity-75"></p> -->
+                        <p id="parr2" class="text-center fs-3">En este proyecto se pueden encontrar muchos recursos
+                            de HTML y CSS puro. El uso de las pseudo-clases está marcado en todo el proyecto, con
+                            intención de aprenderlas rápidamente.Al incorporar Bootstrap la idea central sufrió
+                            modificaciones irremediables, lo cual me obligó incursionar seriamente en Bootstrap.</p>
+                        <!-- <p id="parr3" class="text-end fs-3 m-3"></p> -->
+
+                        <a target="_blank" href="https://github.com/NicolasMelgar/WebConHTMLyCSS"
+                            class="btn miBotonChico">Ver repositorio completo en GITHUB</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="container text-center">
-            <div class="row">
-                <div class="col col-4">
+            <div class="row row-cols-sm-1 row-cols-md-2">
+                <div class="col-md-3 ">
                     <div class="card m-5" style="width: 18rem;">
                         <img src="IMG\Web2.png" class="card-img-top" alt="Mi web HTML y CSS">
                         <div class="card-body">
@@ -261,42 +278,56 @@
                                 a
                                 fin de dominar sus funciones.
                             </p>
-                            <a target="_blank" href="https://nicolasmelgar.github.io/WebBootstrap-1/" class="btn btn-primary">Ver Proyecto</a>
+                            <a target="_blank" href="https://nicolasmelgar.github.io/WebBootstrap-1/"
+                                class="btn miBotonChico">Ver Proyecto</a>
                         </div>
                     </div>
                 </div>
-                <div class="col col-8">
-                    <div id="fondo-div" class="m-5">
-                        <p id="parr1" class="text-start fs-2 opacity-75">Este es el primer sitio de Bootstrap</p>
-                        <p id="parr2" class="text-center fs-1">Lo que se quiere hacer marca el camino.</p>
-                        <p id="parr3" class="text-end fs-3">Como cuesta comprender algo nuevo mi mejor idea fue instaurar el reto de hacer tres sitios con ella.</p>
-                
-                        <a target="_blank" href="https://github.com/NicolasMelgar/WebBootstrap-1" class="btn btn-light">Ver Repositorio en GIT</a>
+                <div class="col-md-9 mx-auto">
+                    <div id="fondo-div" >
+                        <!-- <p id="parr1" class="text-start fs-2 opacity-75"></p> -->
+                        <p id="parr2" class="text-center fs-2 m-3">
+                            Este es el primer sitio de Bootstrap.
+                            <br> Lo que se quiere hacer marca el camino.
+                            <br> Como cuesta comprender algo nuevo mi mejor idea fue instaurar el reto de hacer tres
+                            sitios con ella.
+                        </p>
+                        <!-- <p id="parr3" class="text-end fs-3"></p> -->
+
+                        <a target="_blank" href="https://github.com/NicolasMelgar/WebBootstrap-1"
+                            class="btn miBotonChico">Ver repositorio completo en GITHUB</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="container text-center">
-            <div class="row">
-                <div class="col col-4">
+            <div class="row row-cols-sm-1 row-cols-md-2">
+                <div class="col-md-3">
                     <div class="card m-5" style="width: 18rem;">
                         <img src="IMG\Web3.png" class="card-img-top" alt="Mi web Bootstrap 2">
                         <div class="card-body">
                             <h5 class="card-title">Bootstrap II</h5>
-                            <p class="card-text">Con más dominio sobre la herramienta he decidido crear una landing de un comercio con el fin de estructurar algo real. 
+                            <p class="card-text">Con más dominio sobre la herramienta he decidido crear una landing de
+                                un comercio con el fin de estructurar algo real.
                             </p>
-                            <a target="_blank" href="https://nicolasmelgar.github.io/WebBootstrap-2/" class="btn btn-primary">Ver Proyecto</a>
+                            <a target="_blank" href="https://nicolasmelgar.github.io/WebBootstrap-2/"
+                                class="btn miBotonChico">Ver Proyecto</a>
                         </div>
                     </div>
                 </div>
-                <div class="col col-8">
-                    <div id="fondo-div" class="m-5">
-                        <p id="parr1" class="text-start fs-2 opacity-75">La creatividad es un hecho fundamental si se aplica a la realidad</p>
-                        <p id="parr2" class="text-center fs-1">Lo que se quiere hacer es aplicar un principio de realidad al trabajo realizado</p>
-                        <p id="parr3" class="text-end fs-3">Actualmente me decido por re-hacer completa mi Web con Bootstrap. </p>
-                        
-                        <a target="_blank" href="https://github.com/NicolasMelgar/WebBootstrap-2" class="btn btn-light">Ver repositorio completo en GITHUB</a>
+                <div class="col-md-9 mx-auto">
+                    <div id="fondo-div">
+                        <!-- <p id="parr1" class="text-start fs-2 opacity-75"></p> -->
+                        <p id="parr2" class="text-center fs-2 m-3">La creatividad es un hecho fundamental si se aplica a
+                            la realidad.
+                            <br> Lo que se quiere hacer es aplicar un principio de realidad al trabajo realizado.
+                            <br>Actualmente me decido por re-hacer completa mi Web con Bootstrap.
+                        </p>
+                        <!-- <p id="parr3" class="text-end fs-3"> </p> -->
+
+                        <a target="_blank" href="https://github.com/NicolasMelgar/WebBootstrap-2"
+                            class="btn miBotonChico">Ver repositorio completo en GITHUB</a>
                     </div>
                 </div>
             </div>
@@ -304,7 +335,7 @@
 
     </div>
 
-</section>
+<!-- </section> -->
 
 <br>
 
@@ -319,25 +350,25 @@
             <form action="index.html" method="post">
 
                 <div class="form-group">
-                    <label for="">Nombre</label>
-                    <input type="text" class="form-control m-3" id="" placeholder="Ingresa tu nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control m-3" id="nombre" placeholder="Ingresa tu nombre">
                 </div>
 
                 <div class="form-group">
-                    <label for="">Email</label>
-                    <input type="email" class="form-control m-3" id="" placeholder="Ingresa tu nombre">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control m-3" id="email" placeholder="Ingresa tu nombre">
                 </div>
 
                 <div class="form-group">
-                    <!-- <h3>Mensaje</h3> -->
-                    <!-- <div class="form-floating"> -->
-                        <label class="m-1" for="floatingTextarea2">Mensaje</label>
-                        <textarea class="form-control m-3" placeholder="Deje su mensaje aquí" id="floatingTextarea2" style="height: 100px"></textarea>
-                        
-                    <!-- </div> -->
+                
+                    <label class="m-1" for="floatingTextarea2">Mensaje</label>
+                    <textarea class="form-control m-3" placeholder="Deje su mensaje aquí" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                
+                
                 </div>
 
-                <button type="submit" class="btn btn-success btn-lg m-3">Enviar</button>
+                <button type="submit" class="btn miBotonChico btn-lg m-3">Enviar</button>
             </form>
         </div>
     <!-- </div> -->

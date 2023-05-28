@@ -82,10 +82,29 @@ h1:hover span{
     margin-top: 10px;
     margin-bottom: 20px;
     font-weight: bold;
-    color: white
+    color: white;
 }
 
 .miBoton:hover{
+    background-color: rgb(71, 7, 7);
+    color: bisque;
+}
+
+.miBotonChico{
+    background-color:rgba(128,128,128,.4);
+    border-width: 2px;
+    border-color: rgb(71, 7, 7);
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(71, 7, 7);
+    font-size: 1.3rem;
+    
+}
+
+.miBotonChico:hover{
     background-color: rgb(71, 7, 7);
     color: bisque;
 }
@@ -134,7 +153,7 @@ h1:hover span{
 .sobre-Img{
     border-radius: 20px;
     margin: 5px;
-    max-height: 350px;
+    max-height: 450px;
     min-height: 300px;
     width: auto;
 
@@ -148,7 +167,7 @@ h1:hover span{
     background-size: cover;
     background-attachment: fixed; /*Prallax*/
     color: white;
-    padding: 50px;
+    /* padding: 5px; */
 }
 
 /*---:::Extraido de mi Bootstrap 1 :::---*/
@@ -170,15 +189,16 @@ h1:hover span{
     height: 80vh;
 }
 
-#parr1, #parr2, #parr3, #parr4{
-    color: antiquewhite;
+#parr2 {
+    color: rgb(246, 242, 236);
+    /* font-size: calc(80vw * 0.025); */
 }
 
 #fondo-div{
     border-radius: 20px;
     box-shadow: 8px 8px 5px rgb(200, 166, 166); /*eje x eje y blur color*/
     background-color: rgba(94, 86, 86, 0.3);
-    height: 84%;
+    height: auto;
     
 }
 
@@ -203,16 +223,3 @@ h1:hover span{
 .containerGaleria{
     display: inline-block;
 }
-
-/* .navbar-nav .nav-item .nav-link:active {
-    .navbar-collapse:active {
-        display: none;
-        color: lime;
-    } */
-
-
-
-/* a:link { color: blue !important; }      
-a:visited { color: purple !important; }   
-a:hover { background: yellow !important; }  
-a:active { color: lime !important; }       */
