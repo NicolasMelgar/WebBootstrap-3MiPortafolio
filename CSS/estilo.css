@@ -50,6 +50,7 @@
     text-align: center;
 }
 
+/*Puedo armar una variable con este y el miBotonChico y reducir código*/
 .video-container #miBoton{
     background-color:rgba(128,128,128,.4);
     border-width: 3px;
@@ -114,6 +115,7 @@ h1:hover span{
     
 }
 
+/*Puedo aunar los hover si quiero*/ 
 .miBotonChico:hover{
     background-color: rgb(71, 7, 7);
     color: bisque;
@@ -198,7 +200,7 @@ h1:hover span{
     margin-bottom: 60px;
 }
 
-#titulo2{
+#titulo2, #titulo3, #titulo4{
     font-size: 65px;
     margin-top: 50px;
 }
@@ -238,7 +240,7 @@ h1:hover span{
         font-weight: 700;
     }
 
-    #titulo2{
+    #titulo2, #titulo3, #titulo4{
         font-size: 45px;
         margin-top: 30px;
     }
@@ -263,7 +265,7 @@ h1:hover span{
         font-weight: 700;
     }
 
-    #titulo2{
+    #titulo2, #titulo3, #titulo4{
         font-size: 55px;
         margin-top: 30px;
     }
