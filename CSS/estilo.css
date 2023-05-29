@@ -184,12 +184,11 @@ h1:hover span{
     padding: 25px;
 }
 
-#parr2 {
-    color: rgb(246, 242, 236);
-    /* color: black; */
-}
+/* #parr2 {
+    color: rgb(200, 125, 13);
+} */
 
-#fondo-div {
+.fondo-div {
     border-radius: 20px;
     box-shadow: 8px 8px 5px rgb(200, 166, 166);
     background-color: rgba(94, 86, 86, 0.3); /*eje x eje y blur color*/
