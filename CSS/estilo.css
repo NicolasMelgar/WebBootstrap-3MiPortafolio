@@ -200,7 +200,8 @@ h1:hover span{
     margin-bottom: 60px;
 }
 
-#titulo2, #titulo3, #titulo4{
+/*Cambiar a una clase si estoy seguro que sobreescribe BTS*/
+#titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7{
     font-size: 65px;
     margin-top: 50px;
 }
@@ -240,7 +241,7 @@ h1:hover span{
         font-weight: 700;
     }
 
-    #titulo2, #titulo3, #titulo4{
+    #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7{
         font-size: 45px;
         margin-top: 30px;
     }
@@ -265,7 +266,7 @@ h1:hover span{
         font-weight: 700;
     }
 
-    #titulo2, #titulo3, #titulo4{
+    #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7{
         font-size: 55px;
         margin-top: 30px;
     }
