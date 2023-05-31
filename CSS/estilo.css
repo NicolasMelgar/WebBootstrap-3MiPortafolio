@@ -224,7 +224,7 @@ h1:hover span{
 @media screen and  (max-width: 376px) {
 
     .video-container {
-        background-color: rgba(10, 10, 10, .9);
+        background-color: rgba(10, 10, 10, .7);
     }
 
     .video-container .titulo{
