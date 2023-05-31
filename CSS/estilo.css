@@ -18,7 +18,6 @@
 }
 
 .video-container {
-    background-color: rgba(10, 10, 10, .9);
     position: relative;
     justify-content: center;
     min-height: 95vh;
@@ -223,6 +222,10 @@ h1:hover span{
 /*---::: RESPONSIVE :::---*/
 
 @media screen and  (max-width: 376px) {
+
+    .video-container {
+        background-color: rgba(10, 10, 10, .9);
+    }
 
     .video-container .titulo{
         font-size: 40px;
